@@ -12,20 +12,19 @@ for i in a:
 # from this list in it and print out this new list.
 
 b = [] 
-for i in a:
-    if i < 5:
-        b.append(i)
+for j in a:
+    if j < 5:
+        b.append(j)
 print(b)
 
 # 2. Write this in one line of Python.
-# p = [q.index(v) if v in q else 99999 for v in vm]
-# b2 = [a.index(j) if j < 5 else b2.append(j)]
-# 3. Ask the us er for a number and return a list that contains only elements from the original list
-# that are smaller than that number given by the user.
+c = []
+#print([i for i in range(1, num+1) if num % i == 0])
+#print([k for k in a if k < 5 c.append(k)]) < does not work
 
 num = int(input("Give me a number: "))
-c = []
+d = []
 for i in a:
     if i < num:
-        c.append(i)
-print(c)
+        d.append(i)
+print(d)

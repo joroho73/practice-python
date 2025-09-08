@@ -9,3 +9,6 @@ for divisor in range(1, num + 1):
         b.append(divisor)
 
 print(b)
+
+# on one line
+print([i for i in range(1, num+1) if num % i == 0])
