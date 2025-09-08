@@ -18,9 +18,11 @@ for j in a:
 print(b)
 
 # 2. Write this in one line of Python.
-c = []
 #print([i for i in range(1, num+1) if num % i == 0])
 #print([k for k in a if k < 5 c.append(k)]) < does not work
+num2 = input("Enter number: ")
+print([val for val in a if val < int(num2)]) # copied - don't understand what the first 'val' does
+
 
 num = int(input("Give me a number: "))
 d = []
