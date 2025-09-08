@@ -10,10 +10,20 @@
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
-output = []
+print("first version")
+out1 = []
 for i in a:
     for j in b:
         if i == j:
-            output.append(i)
+            out1.append(i)
+out1 = list(set(out1))
+print(out1)
 
-print(output)
+print("version using 'in'")
+
+out2 = []
+for i in a:
+    if i in b:
+        out2.append(i)
+print(list(set(out2)))
+
