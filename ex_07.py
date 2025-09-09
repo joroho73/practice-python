@@ -15,4 +15,24 @@ b = []
 for item in a:
     if item % 2 == 0:
         b.append(item)
+print("for item in a:\n    if item % 2 == 0:\n        b.append(item)")
 print(b)
+
+print("[x for x in a if x % 2 == 0]")
+print([x for x in a if x % 2 == 0])
+
+# explanaion https://medium.com/py-blog/python-list-comprehensions-use-list-comprehension-to-replace-your-stupid-for-loop-and-if-else-9405acfa4404
+print("explanation: https://medium.com/py-blog/python-list-comprehensions-use-list-comprehension-to-replace-your-stupid-for-loop-and-if-else-9405acfa4404")
+
+
+numbers = [1,2,3,4]
+output = []
+for i in numbers:
+   if i%2 == 1:
+      output.append(i)
+print(numbers
+      )
+print(output)
+
+output2 = [i for i in numbers if i%2 ==1 ] 
+print(output2)
