@@ -1,8 +1,18 @@
 # String Lists
 # Ask the user for a string and print out whether this string is a palindrome or not. 
 
-str = input("enter a string: ")
+st = input("enter a string: ")
 
-print(str[len(str):0:-1])
-print(str[0:len(str)])
-print(list(reversed(str)))
+# using reversed
+rev = "".join(reversed(st))
+if st == rev:
+    print(f"{st} and {rev} are palindromes!")
+else:
+    print(f"{st} is not a palinrome.")
+
+# using slicing
+rev1 = st[::-1]
+if st == rev1:
+    print(f"{st} and {rev1} are palindromes!")
+else:
+    print(f"{st} is not a palinrome.")
