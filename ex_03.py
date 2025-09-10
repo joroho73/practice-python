@@ -3,6 +3,7 @@
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 # and write a program that prints out all the elements of the list that are less than 5.
+print("a < 5")
 print(a)
 for i in a:
     if i < 5: print(i)
@@ -15,13 +16,14 @@ b = []
 for j in a:
     if j < 5:
         b.append(j)
+print("b < 5")
 print(b)
 
 # 2. Write this in one line of Python.
-#print([i for i in range(1, num+1) if num % i == 0])
-#print([k for k in a if k < 5 c.append(k)]) < does not work
-num2 = input("Enter number: ")
-print([val for val in a if val < int(num2)]) # copied - don't understand what the first 'val' does
+num2 = int(input("Enter number: "))
+c = [k for k in a if k < num2]
+print("c < " + str(num2))
+print(c)
 
 
 num = int(input("Give me a number: "))
@@ -29,4 +31,5 @@ d = []
 for i in a:
     if i < num:
         d.append(i)
+print("d < num")
 print(d)
