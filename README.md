@@ -13,3 +13,4 @@ There are forty exercises.
 | [ex_05.py](ex_05.py) | **List Overlap** | write a program that returns a list that contains only the elements # that are common between the lists  | 08/06/25 |
 | [ex_06.py](ex_06.py) | **String Lists** | Ask the user for a string and print out whether this string is a palindrome or not | 10/9/25 |
 | [ex_07.py](ex_07.py) | **List Comprehensions** | Write one line of Python that takes a list and makes a new list which has only the even elements git in it | 09/06/25 |
+| [ex_08.py](ex_08.py) | **Rock Paper Scissors** | Make a two-player Rock-Paper-Scissors game. Ask for player plays (using input), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game. | 09/06/25 |
