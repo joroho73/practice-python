@@ -5,15 +5,15 @@
 # Extra 01: If the number is a multiple of 4, print out a different message.
 
 # get user input
-int_num = int(input("Enter a number: "));
+int_num = int(input("Enter a number: "))
 
 # check for odd or even
 if int_num % 2 == 0:
     # Extra 01
     if int_num % 4 == 0:
-        print(f"{int_num} is divisible by 4!");
+        print(f"{int_num} is divisible by 4!")
     else:
-        print(f"{int_num} is an even number");
+        print(f"{int_num} is an even number")
 else:
     print(f"{int_num} is an odd number");   
     
