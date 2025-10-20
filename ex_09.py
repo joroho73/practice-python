@@ -2,7 +2,7 @@
 Guessing Game One   
 
 Generate a random number between 1 and 9 (including 1 and 9). 
-Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right
+Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right.
 
 '''
 
@@ -17,6 +17,7 @@ while guess is None: # validate as number
     try:
         guess = int(input("Enter a number between 1 and 9 (inclusive)."))
         
+        # check the random and guessed numbers.
         if rand == guess:
             print("Well done, you win!!\n" + str(rand) + " is the same as " + str(guess))
         elif rand < guess:
@@ -29,7 +30,3 @@ while guess is None: # validate as number
     except ValueError:
         print("Not a number, please try again.")
         
-
-
-
-
