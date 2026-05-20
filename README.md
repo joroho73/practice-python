@@ -2,7 +2,7 @@
 
 A repo to hold practice exercises from [practicepython.org](https://www.practicepython.org)
 
-There are forty exercises.
+There are forty exercises to complete. 
 
 | filename |  title | description | date complete |
 | -------- | -------- | -------- | -------: |
